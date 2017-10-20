@@ -1,0 +1,70 @@
+html {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(1,1,1,0);
+}
+
+.jumbotron {
+  background-color: rgba(249, 57, 67, .6);
+  text-align: center;
+  margin-top: 35px;
+  border-radius: 80px;
+
+}
+
+.jumbotron h1 {
+  font-size: 100px;
+}
+
+.jumbotron h3 {
+  font-size: 36px;
+}
+
+.col-md-4 {
+  margin: 8%;
+  padding: 50px 15px 80px 15px;
+  background-color: rgba(252, 236, 201, .7);
+  border-radius: 25px;
+
+}
+
+.result1 {
+  color: #2b2d42;
+  font-size: 28px;
+}
+
+.result2 {
+  color: #2b2d42;
+  font-size: 28px;
+}
+
+.btn {
+  background-color: #7eb2dd;
+  color: white;
+  font-size: 22px;
+}
+
+.glass {
+    margin: 30px auto;
+    height: 300px;
+    width: 100px;
+    position: relative;
+    border-style: none solid solid solid;
+    border-width: 10px;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+.water {
+    width: 100%;
+    height: 10%;
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+}
