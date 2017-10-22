@@ -1,14 +1,20 @@
 
 
 body {
-  background-color: #f6d20c;
 
+  background-color: #f6d20c;
+}
+
+.jake {
+	background-image: url("../img/jakeface1.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
 }
 
 .jumbotron {
 	background-color: rgba(0,0,0,0);
   text-align: center;
-  margin-top: 35px;
+  margin-top: 15px;
   border-radius: 80px;
 
 }
@@ -47,12 +53,13 @@ body {
 
 .glass {
     margin: 30px auto;
-    height: 300px;
-    width: 100px;
+		padding-top: 100px;
+    height: 200px;
+    width: 200px;
     position: relative;
     border-style: none solid solid solid;
     border-width: 10px;
-    border-color: lightgray;
+    border-color: #2b2d42;
     border-radius: 10px;
 }
 
@@ -62,4 +69,16 @@ body {
     background-color: skyblue;
     position: absolute;
     bottom: 0;
+}
+
+.wrong {
+	display: none;
+}
+
+.correct {
+	display: none;
+}
+
+.left {
+	text-align: right;
 }

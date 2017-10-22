@@ -3,6 +3,7 @@
     return number1 / 16 * 100;
   };
 
+	
 
 //Front-End Logic
 
@@ -16,7 +17,23 @@ $(document).ready(function() {
 	$(".water").animate( {
 		height: fill2
 	}, 1000);
-		event.preventDefault();
+	$('#wrong').text(number1);
+	$('#fill2').text(fill2);
+	if (number1 > 16) {
+		$('.wrong').fadeTo(1000, function() {
+		} );
+	} else if (number1 < 16) {
+		$('.wrong').fadeIn(400, function() {
+
+		} );
+	} else {
+		$('.correct').fadeIn(400, function() {
+
+		} );
+	}
+
+	event.preventDefault();
+
 	});
 
 
